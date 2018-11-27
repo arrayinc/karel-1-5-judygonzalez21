@@ -4,3 +4,11 @@
  * Stepwise refinement test! Let's collect
  * these beepers!
  */
+import "turns"
+
+function CollectBeeperTowers(){
+	collectAllBeepers();
+	dropAllBeepers();
+	returnHome();
+}
+
